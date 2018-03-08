@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    background-image: url("bg.png")
+}
+header{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    /* background-color: dimgray; */
+    clear: both;
+}
+
+.containerheaddiv{
+    position: relative;
+    width: 960px;
+    height: 85px;
+    margin: 0 auto;
+    background-color: white;
+}
+.namediv{
+    position: absolute;
+    height: 49px;
+    width: 200px;
+    padding: 18px 0;
+    background-color: #4AAAA5;
+    text-align: center;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #888888;
+}
+h1{
+    font-size: 24px;
+    color: white;
+}
+.linksdiv{
+    float: right;
+    padding: 30px 0;
+    position: relative; 
+    height: 25px;
+    width: 200px;
+    /* background-color: skyblue; */
+    text-align: center;
+    color: #888888;
+}
+.bodydiv{
+    clear: both;
+    display: block;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: orange; */
+}
+.bodycontainer{
+    margin: 0 auto;
+    width: 880px;
+    height: 450px;
+    padding: 40px;
+    /* position: absolute; */
+    background-color: white;
+}
+h2{
+    color: #4AAAA5;
+    font-size: 22px;
+}
+hr{
+    border: #ccc solid 1px;
+}
+.aImg{
+    display: inline;
+    float: left;
+    width: 200px;
+    padding-right: 15px;
+}
+.aParagraph{
+    color: #888888;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    clear: both;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+ 
+}
+.footer1{
+    height: 10px;
+    background-color:#4AAAA5;
+}
+.footer2{
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    background-color: dimgray;
+}
+
+form{
+    position: absolute;
+    width: 100%;
+}
+
+#name, #email, #message{
+    height: 25px;
+    font-size: 15px;
+    width: 880px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+}
+#message{
+    height: 75px;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #4AAAA5;
+}
+.breaker{
+    clear: both;
+    padding-top: 10px;
+}
+
+.divleft{
+    position: relative;
+}
+.labelx{
+    position: absolute;
+    bottom:-120px;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #4AAAA5;
+    color: white;
+}
+.divright{
+    position: relative;
+}
